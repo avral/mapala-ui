@@ -35,6 +35,8 @@ module.exports = {
     // }
   },
   plugins: [
+    { src: '~/plugins/yandex-metrika.js', ssr: false },
+
     { src: '~/plugins/element-ui.js', ssr: true },
     { src: '~/plugins/i18n.js', ssr: true },
     { src: '~/plugins/actionToRoute.js', ssr: true },

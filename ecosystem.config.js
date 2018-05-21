@@ -21,7 +21,7 @@ module.exports = {
       user : 'root',
       host : '158.69.210.48',
       ref  : 'origin/master',
-      repo : 'git@github.com:dacom-core/mapala-ui.git',
+      repo : 'https://github.com/avral/mapala-ui.git',
       path : '/var/www/mapala-ui',
       'post-deploy' : 'yarn install && npm run build && pm2 reload ecosystem.config.js --env production --update-env 1',
       env  : {
@@ -33,7 +33,7 @@ module.exports = {
       user : 'root',
       host : '37.59.98.17',
       ref  : 'origin/dev',
-      repo : 'git@github.com:dacom-core/mapala-ui.git',
+      repo : 'https://github.com/avral/mapala-ui.git',
       path : '/var/www/mapala-ui',
       'post-deploy' : 'yarn install && npm run build && pm2 reload ecosystem.config.js --env development --update-env 1',
       env  : {

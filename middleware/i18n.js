@@ -8,8 +8,6 @@ export default function ({ isHMR, app, store, route, params, error, redirect, is
 
   const locale = params.lang || cookieLocale
 
-  console.log(req)
-
   if (store.state.locales.indexOf(locale) === -1) {
     app.i18n.locale = 'ru'
     return redirect(`http://${req.headers.host}/ru/${route.fullPath}`)
