@@ -24,6 +24,7 @@
               img(src="~assets/ico/steemit.png")
               p
                 | eng/steem
+          a(href="https://golos.mapala.net").switch_lang Обновленная версия для голоса.
 
       div.top-right-block
 
